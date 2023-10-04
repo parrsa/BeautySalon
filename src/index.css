@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Yekan";
+    src: url("./Assets/Font/Yekan.ttf");
+}
+
+@font-face {
+  font-family: "yaldevi";
+  src: url("./Assets/Font/yaldevi.colombo-semibold.ttf");
+}
+
+* {
+    scrollbar-width: 2px;
+    scrollbar-color: white;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #464545;
+    border-radius: 3.5px;
+}

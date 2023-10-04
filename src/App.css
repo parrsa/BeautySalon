@@ -1,0 +1,46 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: yekan;
+}
+
+.hr-lines {
+  position: relative;
+  max-width: 1000px;
+  /* margin: 100px auto; */
+  text-align: center;
+}
+
+.hr-lines:before {
+  content: " ";
+  height: 1.5px;
+  width: 500px;
+  margin-left: 300px;
+  margin-top: 16px;
+  background: #575757;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.hr-lines:after {
+  content: " ";
+  height: 1.5px;
+  margin-right: 300px;
+  margin-top: 16px;
+  width: 500px;
+  background: #575757;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.pp:hover .p {
+  display: block;
+  transition: all;
+}
